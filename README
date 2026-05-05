@@ -1,0 +1,37 @@
+
+
+A Machine Learning-based web app built using Streamlit to detect fraudulent credit card transactions.
+
+* Features
+- Predicts whether a transaction is **Fraud** or **Normal**
+- Built using **Random Forest Classifier**
+- Interactive UI with Streamlit
+- Sample data buttons for quick testing
+
+* Tech Stack
+- Python
+- Pandas, NumPy
+- Scikit-learn
+- Streamlit
+
+* Project Structure
+fraud-detection/
+│
+├── app/
+│ └── app.py # Streamlit app
+│
+├── model/
+│ └── train_model.py # Model training script
+│
+├── data/ # Dataset (ignored in Git)
+│
+├── model.pkl # Trained model (ignored in Git)
+├── .gitignore
+└── README.md
+
+* Setup Instructions
+
+# 1. Clone the Repository
+'''bash
+git clone https://github.com/shweta8200/fraud-detection.git
+cd fraud-detection
