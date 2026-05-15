@@ -23,9 +23,9 @@ fraud-detection/
 ├── model/
 │ └── train_model.py # Model training script
 │
-├── data/ # Dataset (ignored in Git)
+├── data/ # Dataset
 │
-├── model.pkl # Trained model (ignored in Git)
+├── model.pkl # Trained model 
 ├── .gitignore
 └── README.md
 
